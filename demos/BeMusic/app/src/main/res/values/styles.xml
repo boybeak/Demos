@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme"  parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/std_color_B</item>
+        <item name="android:dropDownSelector">@color/std_color_B</item>
+        <item name="android:popupBackground">@color/colorAccent</item>
+        <item name="background">@color/colorAccent</item>
+        <!--<item name="android:actionBarItemBackground">@drawable/main_ripple</item>-->
+    </style>
+
+    <!--<style name="myapp_DropDownNav" parent="Theme.@androidstyle/Widget.Spinner.DropDown.ActionBar">
+        <item name="background">@color/colorAccent</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:popupBackground">@color/colorAccent</item>
+        <item name="android:dropDownSelector">@color/colorAccent</item>
+    </style>-->
+</resources>

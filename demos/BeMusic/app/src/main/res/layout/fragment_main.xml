@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beak.music.fragment.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        />
+    <Button
+        android:id="@+id/to_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn"
+        android:background="@drawable/main_ripple"
+        />
+    <!--<android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        />-->
+
+</FrameLayout>

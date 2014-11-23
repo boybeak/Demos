@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="std_color_A">#ff363636</color>
+    <color name="std_color_B">#ffb0b0b0</color>
+
+    <color name="windowBackground">@color/std_color_B</color>
+    <color name="colorPrimary">@color/std_color_A</color>
+    <color name="colorPrimaryDark">@color/std_color_A</color>
+    <color name="colorAccent">@color/std_color_A</color>
+    <color name="navigationBarColor">@color/std_color_A</color>
+</resources>

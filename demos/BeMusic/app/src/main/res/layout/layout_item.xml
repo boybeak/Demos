@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/actionBarSize">
+    <TextView
+        android:id="@+id/item_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_toLeftOf="@+id/item_duration"
+        android:textColor="@color/std_color_A"
+        />
+    <TextView
+        android:id="@+id/item_artist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/item_duration"
+        android:layout_below="@+id/item_name"
+        android:singleLine="true"
+        />
+</RelativeLayout>
